@@ -1,0 +1,284 @@
+/* shared */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 a:link {
+	color: white;
+	text-decoration: none;
+}
+
+h1 a:visited {
+	color:white;
+}
+
+h3 a:link {
+	color: white;
+	text-decoration: none;
+}
+
+h3 a:visited {
+	color: #112F41;
+}
+h3 a:hover {
+	color: #666666;
+}
+
+nav a:hover {
+	color: #4aaaa5;
+}
+
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+
+.spaceafter{
+    margin-bottom: 30px;
+}
+
+.spaceabove{
+    margin-top:179px;
+}
+
+p{
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   line-height: 1.5em;
+   padding-bottom: 15px;
+   color:#777777;
+}
+
+#colorbar{
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+	height: 106px;
+}
+
+#top {
+    width: 960px;
+    margin-left: auto;
+	margin-right:auto;
+    overflow: hidden;
+    float:center;
+}
+
+#name{
+    padding: 35px;
+    width: 300px;
+    background-color: #4aaaa5;
+    color: white;
+    float:left;
+}
+
+nav{
+    width:245px;
+    float: right;
+    margin-top: 40px;
+    margin-right: -25px;
+}
+
+nav li {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: inline;
+    font-size: 16px;
+    padding: 0 10px;
+    border-right: 1px solid #cccccc;
+    font-weight: 500;
+}
+
+nav li:last-child {
+    padding-left:10px;
+    border: none;
+}
+
+nav a:link {
+	color:#777777;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #112F41;
+}
+nav a:hover {
+	color: #4aaaa5;
+}
+
+#wrapper{
+	width: 960px;
+	margin-left: auto;
+	margin-right:auto;
+	overflow: hidden;
+}
+
+body{
+    background-image: url("../images/concrete_seamless.png");
+}
+
+main{
+    border: 1px solid #dddddd;
+    background-color: white;
+    margin-top: 65px;
+    float:center;
+    padding: 45px 30px;
+}
+
+footer{
+    background-color: #666666;
+    padding-top: 40px;
+    margin-top: 100px;
+    border-top: 8px solid #4aaaa5;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+/* Index page */
+
+.homeimg{
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+#content{
+    padding-top: 30px;
+}
+
+
+
+
+/* contact page */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    margin-right: 2%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #112F41;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.col-25 {
+    float:center;
+    width: 95%;
+}
+
+.col-25 p{
+padding: 0;
+}
+
+.col-75 {
+    float:center;
+    width: 95%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* portfolio page */
+
+h3{
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 89.25%;
+    position: absolute;
+    margin-top:-80px;
+    padding: 15px;
+}
+
+#placeholder1{
+    position: relative;
+    float:left;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+}
+
+#placeholder2{
+    position: relative;
+    float:right;
+    margin-right: 300px;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+}
+
+#placeholder3{
+    position: relative;
+    float:left;
+    clear: both;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+}
+
+#placeholder4{
+    position: relative;
+    float:right;
+    margin-right: 300px;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+}
+
+#placeholder5{
+    position: relative;
+    float:left;
+    clear: both;
+    width: 275px;
+    padding-bottom: 50px;
+    z-index: inherit -1;
+}
+
+.extend {
+    height: 850px;
+}
